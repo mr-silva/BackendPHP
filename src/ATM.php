@@ -2,7 +2,7 @@
 
 namespace Reweb\Job\Backend;
 
-class CashMachine {
+class ATM {
   public function __construct($balance, $accountType) {
     $this -> balance = $balance;
     $this -> accountType = $accountType;
